@@ -21,7 +21,7 @@
     function getGifs(value){
       var animal = $(value).attr("data-animal"); // every button has data-animal
       var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-          animal + "&api_key=dc6zaTOxFJmzC&limit=10"; // limit 10
+          animal + "&api_key=W2M3s4fJUGtL1Ik62gMHIxt7SCpcpYKt&limit=10"; // limit 10
       $.ajax({
         url: queryURL,
         method: "GET"
